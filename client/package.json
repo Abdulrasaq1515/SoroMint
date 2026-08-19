@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@stellar/freighter-api": "^6.0.1",
-    "axios": "^1.14.0",
+    "axios": "^1.18.0",
     "chart.js": "^4.5.1",
     "highlight.js": "^11.11.1",
     "lucide-react": "^1.7.0",
